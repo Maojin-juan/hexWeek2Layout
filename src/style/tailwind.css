@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply mx-auto;
+    max-width: 1296px;
+  } 
+
+  img{
+    @apply h-auto;
+    max-width: 100%;
+  }
+
+  .nav-item{
+    @apply block pt-10 pb-6 hover:scale-105 ease-in-out duration-300;
+  }
+
+  .text-64{
+    @apply text-[64px] ;
+  }
+
+  .card{
+    @apply col-span-1 p-4 border border-[#E3E3E3] shadow-[4px_4px_4px_0px_rgba(0,0,0,0.08)] hover:scale-105 ease-in-out duration-300;
+  }
+  
+  .card-title{
+    @apply text-xl leading-[30px];
+  }
+
+  .rounded-shadow{
+    @apply rounded-[40px] hover:shadow-[0px_0px_16px_3px_rgba(144,148,255,0.9)] ease-in-out duration-300;
+  }
+
+  .img-hover{
+    @apply hover:scale-105 ease-in-out duration-300;
+  }
+
+  .btn{
+    @apply rounded-full cursor-pointer px-6 py-3 flex hover:scale-110 ease-in-out duration-300;
+  }
+}
