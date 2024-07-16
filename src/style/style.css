@@ -673,9 +673,6 @@ img{
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-.grid-cols-4{
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
 .grid-cols-6{
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
@@ -732,9 +729,6 @@ img{
 .to-\[rgba\(5\2c 0\2c 20\2c 1\)\]{
   --tw-gradient-to: rgba(5,0,20,1) var(--tw-gradient-to-position);
 }
-.p-3{
-  padding: 0.75rem;
-}
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -742,6 +736,10 @@ img{
 .py-24{
   padding-top: 6rem;
   padding-bottom: 6rem;
+}
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 .py-40{
   padding-top: 10rem;
@@ -759,8 +757,9 @@ img{
   padding-top: 72px;
   padding-bottom: 72px;
 }
-.pb-0{
-  padding-bottom: 0px;
+.py-7{
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
 }
 .pb-4{
   padding-bottom: 1rem;
