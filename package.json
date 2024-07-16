@@ -6,11 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "css": "postcss src/style/tailwind.css -o src/style/style.css --watch",
     "start": "run-p dev css",
-    "d": "gh-pages -d dist"
+    "d": "vite build && gh-pages -d dist"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
